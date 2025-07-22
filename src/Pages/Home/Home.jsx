@@ -1,5 +1,5 @@
 import Banner from "../../Components/Banner/Banner";
-import Brand from "../../Components/Brand/Brand";
+
 import Categories from "../../Components/Categories/Categories";
 import Client from "../../Components/Client/Client";
 import Product from "../../Components/Product/Product";
@@ -25,10 +25,7 @@ const Home = () => {
             </div>
 
 
-            {/* brand component  */}
-            <div className="brand flex items-center h-[171px] justify-center w-full mt-8 mb-8">
-                <Brand></Brand>
-            </div>
+            
 
             {/* features component */}
             <div className="w-full flex items-center justify-center mb-[80px]">

@@ -9,27 +9,27 @@ const Client = () => {
     const clientSays = [
         {
             id: 1,
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50',
-            name: 'John Doe',
-            position: 'CEO, Company',
+            description: 'Cuộc sống luôn thay đổi từng ngày với nhiều cơ hội và thách thức. Mỗi người đều có một hành trình riêng để khám phá bản thân và thế giới xung quanh. Hãy sống với đam mê, kiên trì theo đuổi ước mơ và tận hưởng từng khoảnh khắc quý giá trong cuộc đời.',
+            name: 'Nguyễn Tuấn Nghĩa',
+            position: 'CEO, Công ty',
         },
         {
             id: 2,
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50',
-            name: 'John Doe',
-            position: 'CEO, Company',
+            description: 'Mỗi khó khăn và thử thách đều là một cơ hội để chúng ta nhìn lại, học hỏi và trưởng thành. Tầm nhìn của tôi là không ngừng đổi mới, để thương hiệu luôn là lựa chọn hàng đầu và mang lại trải nghiệm tuyệt vời cho khách hàng',
+            name: 'Trần Đức Anh',
+            position: 'CEO, Công ty',
         },
         {
             id: 3,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50',
-            name: 'John Doe',
-            position: 'CEO, Company',
+            name: 'philip nguyễn',
+            position: 'CEO, Công ty',
         },
         {
             id: 4,
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50',
-            name: 'John Doe',
-            position: 'CEO, Company',
+            description: 'I believe that dedication, honesty and creativity are the core elements that help a business develop sustainably. We do not only want to serve our customers, but also want to accompany and become a part of their success',
+            name: 'John nathan',
+            position: 'CEO, Công ty',
         },
     ]
 
@@ -45,7 +45,9 @@ const Client = () => {
     return (
         <div className="lg:container mx-auto ">
 
-            <SectionTitle title="What is client says about us" mb='mb-11'></SectionTitle>
+            <SectionTitle title="Tầm Nhìn & Giá Trị
+
+" mb='mb-11'></SectionTitle>
 
             <div className="slider-container w-full h-full">
                 <Slider {...settings}>
@@ -56,7 +58,7 @@ const Client = () => {
                                 <div className="flex items-center">
                                     <h4><User size='4rem' /></h4>
                                     <div>
-                                        <h4 className="text-2xl text-[#272343] font-inter font-medium capitalize mb-1.5">{client?.name}</h4>
+                                        <h4 className="text-2xl text-[#5a5f99] font-inter font-medium capitalize mb-1.5">{client?.name}</h4>
                                         <p className="text-base text-[#9a9caa] font-inter capitalize font-normal">{client?.position}</p>
                                     </div>
                                 </div>

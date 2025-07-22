@@ -7,57 +7,58 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 const Recent = () => {
 
     const features = [
-        {
-            title: 'library stool',
-            status: 'New',
-            price: '$250',
-            image: '/src/assets/features/product_1.png',
-            currentPrice: '$200',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/features/product_2.png',
-        },
-        {
-            title: 'library stool Chair',
-            price: '$250',
-            image: '/src/assets/features/product_3.png',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'New',
-            price: '$250',
-            image: '/src/assets/features/product_4.png',
-            currentPrice: '$200',
-        },
-        {
-            title: 'library stool',
-            status: 'New',
-            price: '$250',
-            image: '/src/assets/features/product_1.png',
-            currentPrice: '$200',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/features/product_2.png',
-        },
-        {
-            title: 'library stool Chair',
-            price: '$250',
-            image: '/src/assets/features/product_3.png',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'New',
-            price: '$250',
-            image: '/src/assets/features/product_4.png',
-            currentPrice: '$200',
-        },
-    ];
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Mới',
+        price: '250.000₫',
+        image: '/src/assets/features/product_1.png',
+        currentPrice: '200.000₫',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/features/product_2.png',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        price: '250.000₫',
+        image: '/src/assets/features/product_3.png',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Mới',
+        price: '250.000₫',
+        image: '/src/assets/features/product_4.png',
+        currentPrice: '200.000₫',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Mới',
+        price: '250.000₫',
+        image: '/src/assets/features/product_1.png',
+        currentPrice: '200.000₫',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/features/product_2.png',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        price: '250.000₫',
+        image: '/src/assets/features/product_3.png',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Mới',
+        price: '250.000₫',
+        image: '/src/assets/features/product_4.png',
+        currentPrice: '200.000₫',
+    },
+];
+
 
     const settings = {
         dots: false,
@@ -70,7 +71,7 @@ const Recent = () => {
     return (
         <div className="lg:container mx-auto">
 
-            <SectionTitle title="Recently Added" mb={'mb-11'} />
+            <SectionTitle title="Mới có" mb={'mb-11'} />
             
 
             <div className="slider-container features_slider w-full h-full">
@@ -93,7 +94,7 @@ const Recent = () => {
                                             <h4 className="text-base text-[#007580] capitalize font-inter font-normal mb-4">{feature?.title}</h4>
                                             <span className="bg-[#007580] h-[44px] w-[44px] rounded-lg flex items-center justify-center"><ShoppingCart size='1.5rem' color="#fff"  /></span>
                                         </div>
-                                        <p className="text-xl flex items-center gap-2 text-[#272343] font-semibold font-inter ">
+                                        <p className="text-xl flex items-center gap-2 text-[#5a5f99] font-semibold font-inter ">
                                             {feature?.price} 
                                             {
                                                 feature?.currentPrice && (

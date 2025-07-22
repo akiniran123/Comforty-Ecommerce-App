@@ -7,28 +7,28 @@ import SectionTitle from './../SectionTitle/SectionTitle';
 const Categories = () => {
 
     const categories = [
-        {
-            title: 'Wing Chair',
-            products: '3,584 Products',
-            image: '/src/assets/categories/categories_1.png',
-        },
-        {
-            title: 'Wooden Chair',
-            products: '157 Products',
-            image: '/src/assets/categories/categories_2.png',
-        },
-        {
-            title: 'desk Chair',
-            products: '154 Products',
-            image: '/src/assets/categories/categories_3.png',
-        },
-        {
-            title: 'Park Bench',
-            products: '154 Products',
-            image: '/src/assets/categories/categories_4.png',
-        },
+    {
+        title: 'Ghế cánh',
+        products: '3.584 sản phẩm',
+        image: '/src/assets/categories/categories_1.png',
+    },
+    {
+        title: 'Ghế gỗ',
+        products: '157 sản phẩm',
+        image: '/src/assets/categories/categories_2.png',
+    },
+    {
+        title: 'Ghế làm việc',
+        products: '154 sản phẩm',
+        image: '/src/assets/categories/categories_3.png',
+    },
+    {
+        title: 'Ghế công viên',
+        products: '154 sản phẩm',
+        image: '/src/assets/categories/categories_4.png',
+    },
+];
 
-    ];
 
     const settings = {
         className: "center",
@@ -42,7 +42,7 @@ const Categories = () => {
     return (
         <div>
             <div className="lg:container mx-auto ">
-                <SectionTitle title="Top Categories" mb='mb-11'></SectionTitle>
+                <SectionTitle title="Danh mục hàng đầu" mb='mb-11'></SectionTitle>
 
                 <div className="slider-container features_slider w-full h-full">
                     <Slider {...settings}>

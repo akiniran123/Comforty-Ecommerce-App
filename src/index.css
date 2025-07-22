@@ -3,10 +3,10 @@
 @plugin "daisyui";
 
 /* google font inter  */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 @theme {
-    --font-inter: "Inter", sans-serif;
+    --font-roboto: "Roboto", sans-serif;
 }
 
 .banner_slide_item {
@@ -51,7 +51,7 @@
 
 .slider_container>.slick-slider>.slick-prev:before,
 .slider_container>.slick-slider>.slick-next:before {
-    font-family: 'slick';
+    font-family: 'Roboto';
     font-size: 52px !important;
     line-height: 1;
     opacity: .75;
@@ -73,7 +73,7 @@
 }
 
 .slider_container>.slick-slider>.slick-dots li button:before {
-    font-family: 'slick';
+    font-family: 'Roboto';
     font-size: 22px !important;
     line-height: 20px;
     position: absolute;

@@ -12,205 +12,202 @@ const Product = () => {
     const productTitle = [
         {
             id: 0,
-            title: "all",
-            product: 'all'
+            title: "Tất cả",
+            product: 'Tất cả'
         },
         {
             id: 1,
-            title: "newest",
-            product: 'newest'
+            title: "Mới nhất",
+            product: 'Mới nhất'
         },
         {
             id: 2,
-            title: "trending",
-            product: 'trending'
+            title: "Xu hướng",
+            product: 'Xu hướng'
         },
         {
             id: 3,
-            title: "best seller",
-            product: 'best_seller'
+            title: "Bán chạy nhất",
+            product: 'Bán chạy nhất'
         },
     ];
 
 
+const products = [
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Mới',
+        price: '250.000₫',
+        image: '/src/assets/products/product_1.png',
+        currentPrice: '200.000₫',
+        product: 'newest',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_2.png',
+        product: 'newest',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Mới',
+        price: '250.000₫',
+        image: '/src/assets/products/product_3.png',
+        currentPrice: '200.000₫',
+        product: 'newest',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_4.png',
+        product: 'newest',
+    },
 
-    const products = [
-        {
-            title: 'library stool',
-            status: 'New',
-            price: '$250',
-            image: '/src/assets/products/product_1.png',
-            currentPrice: '$200',
-            product: 'newest',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_2.png',
-            product: 'newest',
-        },
-        {
-            title: 'library stool',
-            status: 'New',
-            price: '$250',
-            image: '/src/assets/products/product_3.png',
-            currentPrice: '$200',
-            product: 'newest',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_4.png',
-            product: 'newest',
-        },
-
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_5.png',
-            product: 'trending',
-        },
-        {
-            title: 'library stool',
-            status: 'New',
-            price: '$250',
-            image: '/src/assets/products/product_6.png',
-            currentPrice: '$200',
-            product: 'trending',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_7.png',
-            product: 'trending',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_8.png',
-            product: 'trending',
-        },
-        {
-            title: 'library stool',
-            status: 'New',
-            price: '$250',
-            image: '/src/assets/products/product_1.png',
-            currentPrice: '$200',
-            product: 'best_seller',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_2.png',
-            product: 'best_seller',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_3.png',
-            product: 'best_seller',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_5.png',
-            product: 'best_seller',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_6.png',
-            product: 'featured',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_7.png',
-            product: 'featured',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_8.png',
-            product: 'featured',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_1.png',
-            product: 'featured',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_2.png',
-            product: 'all',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_3.png',
-            product: 'all',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_4.png',
-            product: 'all',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_5.png',
-            product: 'all',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_6.png',
-            product: 'all',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_7.png',
-            product: 'all',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_8.png',
-            product: 'all',
-        },
-        {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
-            image: '/src/assets/products/product_1.png',
-            product: 'all',
-        },
-
-
-    ];
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_5.png',
+        product: 'trending',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Mới',
+        price: '250.000₫',
+        image: '/src/assets/products/product_6.png',
+        currentPrice: '200.000₫',
+        product: 'trending',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_7.png',
+        product: 'trending',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_8.png',
+        product: 'trending',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Mới',
+        price: '250.000₫',
+        image: '/src/assets/products/product_1.png',
+        currentPrice: '200.000₫',
+        product: 'best_seller',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_2.png',
+        product: 'best_seller',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_3.png',
+        product: 'best_seller',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_5.png',
+        product: 'best_seller',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_6.png',
+        product: 'featured',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_7.png',
+        product: 'featured',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_8.png',
+        product: 'featured',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_1.png',
+        product: 'featured',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_2.png',
+        product: 'all',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_3.png',
+        product: 'all',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_4.png',
+        product: 'all',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_5.png',
+        product: 'all',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_6.png',
+        product: 'all',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_7.png',
+        product: 'all',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_8.png',
+        product: 'all',
+    },
+    {
+        title: 'Ghế đôn thư viện',
+        status: 'Khuyến mãi',
+        price: '250.000₫',
+        image: '/src/assets/products/product_1.png',
+        product: 'all',
+    },
+];
 
 
     const productFilter = products.filter(product => product.product === active?.product);
@@ -220,7 +217,7 @@ const Product = () => {
     return (
         <div className="lg:container mx-auto">
             <div className="flex flex-col items-center justify-center">
-                <SectionTitle title={'our product'} textAlign={'center'} mb={'mb-5'}></SectionTitle>
+                <SectionTitle title={'Sản phẩm của chúng tôi'} textAlign={'center'} mb={'mb-5'}></SectionTitle>
 
 
                 <div className="flex items-center justify-center gap-6 mb-11">
@@ -232,7 +229,7 @@ const Product = () => {
                                     id: title?.id,
                                     product: title?.product
                                 })}
-                                className={`text-base font-black uppercase font-inter cursor-pointer ${active?.id === indx ? 'text-[#272343]' : 'text-[#9a9caa]'
+                                className={`text-base font-black uppercase font-inter cursor-pointer ${active?.id === indx ? 'text-[#9a9caa]' : 'text-[#9a9caa]'
                                     }`}>
                                 {title?.title}
                             </button>
@@ -262,7 +259,7 @@ const Product = () => {
                                     <h4 className="text-base text-[#007580] capitalize font-inter font-normal mb-4">{product?.title}</h4>
                                     <span className="bg-[#007580] h-[44px] w-[44px] rounded-lg flex items-center justify-center"><ShoppingCart size='1.5rem' color="#fff" /></span>
                                 </div>
-                                <p className="text-xl flex items-center gap-2 text-[#272343] font-semibold font-inter ">
+                                <p className="text-xl flex items-center gap-2 text-[#5a5f99] font-semibold font-inter ">
                                     {product?.price}
                                     {
                                         product?.currentPrice && (

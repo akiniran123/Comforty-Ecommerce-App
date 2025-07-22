@@ -8,54 +8,54 @@ const Features = () => {
 
     const features = [
         {
-            title: 'library stool',
-            status: 'New',
-            price: '$250',
+            title: 'ghế xịn',
+            status: 'Mới',
+            price: '250.000đ',
             image: '/src/assets/features/product_1.png',
-            currentPrice: '$200',
+            currentPrice: '200.000đ',
         },
         {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
+            title: 'ghế ngon nghẻ',
+            status: 'giảm giá',
+            price: '250.000đ',
             image: '/src/assets/features/product_2.png',
         },
         {
-            title: 'library stool Chair',
-            price: '$250',
+            title: 'ghế vip',
+            price: '250.000đ',
             image: '/src/assets/features/product_3.png',
         },
         {
-            title: 'library stool Chair',
-            status: 'New',
-            price: '$250',
+            title: 'ghế bắc đẩu',
+            status: 'Mới',
+            price: '250.000đ',
             image: '/src/assets/features/product_4.png',
-            currentPrice: '$200',
+            currentPrice: '200.000đ',
         },
         {
-            title: 'library stool',
-            status: 'New',
-            price: '$250',
+            title: 'ghế thường',
+            status: 'Mới',
+            price: '250.000đ',
             image: '/src/assets/features/product_1.png',
-            currentPrice: '$200',
+            currentPrice: '200.000đ',
         },
         {
-            title: 'library stool Chair',
-            status: 'Sales',
-            price: '$250',
+            title: 'ghế gỗ',
+            status: 'Giảm giá',
+            price: '250.000đ',
             image: '/src/assets/features/product_2.png',
         },
         {
-            title: 'library stool Chair',
-            price: '$250',
+            title: 'ghế da',
+            price: '250.000đ',
             image: '/src/assets/features/product_3.png',
         },
         {
-            title: 'library stool Chair',
-            status: 'New',
-            price: '$250',
+            title: 'ghế nhựa',
+            status: 'Mới',
+            price: '250.000đ',
             image: '/src/assets/features/product_4.png',
-            currentPrice: '$200',
+            currentPrice: '200.000đ',
         },
     ];
 
@@ -70,7 +70,9 @@ const Features = () => {
     return (
         <div>
             <div className="lg:container mx-auto ">
-                <SectionTitle title="Featured Products" mb='mb-11'></SectionTitle>
+                <div className="mt-16">
+  <SectionTitle title="Sản phẩm nổi bật" mb="mb-9"></SectionTitle>
+</div>
 
                 <div className="slider-container features_slider w-full h-full">
                     <Slider {...settings}>
@@ -92,7 +94,7 @@ const Features = () => {
                                             <h4 className="text-base text-[#007580] capitalize font-inter font-normal mb-4">{feature?.title}</h4>
                                             <span className="bg-[#007580] h-[44px] w-[44px] rounded-lg flex items-center justify-center"><ShoppingCart size='1.5rem' color="#fff"  /></span>
                                         </div>
-                                        <p className="text-xl flex items-center gap-2 text-[#272343] font-semibold font-inter ">
+                                        <p className="text-xl flex items-center gap-2 text-[#a3a8e0] font-semibold font-inter ">
                                             {feature?.price} 
                                             {
                                                 feature?.currentPrice && (

@@ -8,8 +8,8 @@ const Delivery = () => {
                     <div className="flex items-center gap-4">
                         <p><Percent size='3rem' /></p>
                         <div>
-                            <h4 className="text-base text-[#272343] capitalize font-inter font-medium mb-2.5">Discount</h4>
-                            <p className="text-sm text-[#9a9caa] font-inter font-normal">every week new sales</p>
+                            <h4 className="text-base text-[#5a5f99] capitalize font-inter font-medium mb-2.5">Giảm giá</h4>
+                            <p className="text-sm text-[#9a9caa] font-inter font-normal">Doanh số bán hàng mỗi tuần</p>
                         </div>
                     </div>
                 </div>
@@ -18,8 +18,8 @@ const Delivery = () => {
                     <div className="flex items-center gap-4">
                         <p><Truck size='3rem' /></p>
                         <div>
-                            <h4 className="text-base text-[#272343] capitalize font-inter font-medium mb-2.5">Free Delivery</h4>
-                            <p className="text-sm text-[#9a9caa] font-inter font-normal">100% Free for all orders</p>
+                            <h4 className="text-base text-[#5a5f99] capitalize font-inter font-medium mb-2.5">Giao hàng miễn phí</h4>
+                            <p className="text-sm text-[#9a9caa] font-inter font-normal">Miễn phí 100% cho tất cả các đơn hàng</p>
                         </div>
                     </div>
                 </div>
@@ -28,8 +28,8 @@ const Delivery = () => {
                     <div className="flex items-center gap-4">
                         <p><Clock3 size='3rem' /></p>
                         <div>
-                            <h4 className="text-base text-[#272343] capitalize font-inter font-medium mb-2.5">Great Support 24/7</h4>
-                            <p className="text-sm text-[#9a9caa] font-inter font-normal">We care your experiences</p>
+                            <h4 className="text-base text-[#5a5f99] capitalize font-inter font-medium mb-2.5">Hỗ trợ 24/7</h4>
+                            <p className="text-sm text-[#9a9caa] font-inter font-normal">Chúng tôi quan tâm đến trải nghiệm của bạn</p>
                         </div>
                     </div>
                 </div>
@@ -39,8 +39,8 @@ const Delivery = () => {
                     <div className="flex items-center gap-4">
                         <p><ShieldCheck size='3rem' /></p>
                         <div>
-                            <h4 className="text-base text-[#272343] capitalize font-inter font-medium mb-2.5">Secure Payment</h4>
-                            <p className="text-sm text-[#9a9caa] font-inter font-normal">100% Secure Payment Method</p>
+                            <h4 className="text-base text-[#5a5f99] capitalize font-inter font-medium mb-2.5">Thanh toán an toàn</h4>
+                            <p className="text-sm text-[#9a9caa] font-inter font-normal">Phương thức thanh toán an toàn 100%</p>
                         </div>
                     </div>
                 </div>

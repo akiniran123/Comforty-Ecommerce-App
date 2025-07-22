@@ -5,7 +5,7 @@ const SectionTitle = ({title, mb, textAlign}) => {
         <div className={`w-full flex items-center  ${
             textAlign === 'center' ? `justify-${textAlign}` : 'justify-start'
         }`}>
-            <h3 className={`text-3xl text-[#272343] font-semibold font-inter capitalize ${margin}`}>{title}</h3>
+            <h3 className={`text-3xl text-[#5a5f99] font-semibold font-inter capitalize ${margin}`}>{title}</h3>
         </div>
     );
 };
