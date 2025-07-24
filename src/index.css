@@ -1,9 +1,12 @@
-/* tailwind css  */
+/* ✅ Google font phải đứng đầu */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ✅ Sau đó mới đến Tailwind và plugin */
 @import "tailwindcss";
 @plugin "daisyui";
 
-/* Google font Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* ✅ Nếu cần, có thể thêm @charset trước cùng (nếu có file UTF-8) */
+/* @charset "UTF-8"; */
 
 @theme {
     --font-roboto: "Roboto", sans-serif;
