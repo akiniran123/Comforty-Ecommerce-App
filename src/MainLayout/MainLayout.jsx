@@ -1,6 +1,7 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"; // Sửa ở đây
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from './../Components/Navbar/Navbar';
 import Home from "../Pages/Home/Home";
+import About from "../Pages/About"; // ✅ Đã thêm dòng này
 import Auth from "../Pages/Auth/Auth";
 import Login from "../Pages/Auth/Login/Login";
 import Register from "../Pages/Auth/Register/Register";
@@ -23,6 +24,10 @@ const MainLayout = () => {
                         </AuthCheck>
                     } 
                 />
+
+                {/* ✅ Route cho trang Giới thiệu */}
+                <Route path="/about" element={<About />} />
+
                 <Route path="auth" element={<Auth />}>
                     <Route path="login" element={<Login />} />
                     <Route path="register" element={<Register />} />

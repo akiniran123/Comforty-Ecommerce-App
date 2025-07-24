@@ -11,25 +11,25 @@ const Client = () => {
             id: 1,
             description: 'Cuộc sống luôn thay đổi từng ngày với nhiều cơ hội và thách thức. Mỗi người đều có một hành trình riêng để khám phá bản thân và thế giới xung quanh. Hãy sống với đam mê, kiên trì theo đuổi ước mơ và tận hưởng từng khoảnh khắc quý giá trong cuộc đời.',
             name: 'Nguyễn Tuấn Nghĩa',
-            position: 'CEO, Công ty',
+            position: 'Chủ sở hữu & đồng sáng lập NexLoot',
         },
         {
             id: 2,
             description: 'Mỗi khó khăn và thử thách đều là một cơ hội để chúng ta nhìn lại, học hỏi và trưởng thành. Tầm nhìn của tôi là không ngừng đổi mới, để thương hiệu luôn là lựa chọn hàng đầu và mang lại trải nghiệm tuyệt vời cho khách hàng',
             name: 'Trần Đức Anh',
-            position: 'CEO, Công ty',
+            position: 'Chủ sở hữu & đồng sáng lập NexLoot',
         },
         {
             id: 3,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50',
             name: 'philip nguyễn',
-            position: 'CEO, Công ty',
+            position: 'CEO, NexLoot',
         },
         {
             id: 4,
             description: 'I believe that dedication, honesty and creativity are the core elements that help a business develop sustainably. We do not only want to serve our customers, but also want to accompany and become a part of their success',
             name: 'John nathan',
-            position: 'CEO, Công ty',
+            position: 'CEO, NexLoot',
         },
     ]
 
