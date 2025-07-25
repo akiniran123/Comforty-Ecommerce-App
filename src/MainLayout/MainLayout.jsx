@@ -1,7 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from './../Components/Navbar/Navbar';
 import Home from "../Pages/Home/Home";
-import About from "../Pages/About"; // ✅ Đã thêm dòng này
+import About from "../Pages/About";
+import News from "../Pages/news.jsx";             // ✅ THÊM DÒNG NÀY
+import Policy from "../Pages/Policy";          // ✅ NẾU CÓ TRANG POLICY
+import Post from "../Pages/Post";              // ✅ NẾU CÓ TRANG POST
 import Auth from "../Pages/Auth/Auth";
 import Login from "../Pages/Auth/Login/Login";
 import Register from "../Pages/Auth/Register/Register";
@@ -25,8 +28,11 @@ const MainLayout = () => {
                     } 
                 />
 
-                {/* ✅ Route cho trang Giới thiệu */}
+                {/* ✅ Thêm các Route mới */}
                 <Route path="/about" element={<About />} />
+                <Route path="/news" element={<News />} />
+                <Route path="/policy" element={<Policy />} />
+                <Route path="/post" element={<Post />} />
 
                 <Route path="auth" element={<Auth />}>
                     <Route path="login" element={<Login />} />
