@@ -17,10 +17,26 @@ const Footer = () => {
                         <div>
                             {/* logo wrapper  */}
                             <div className="logo_wrapper mb-7">
-                                <Link to='/' className="text-xl text-[#a3a8e0] font-inter font-medium capitalize flex items-center gap-2"><Armchair size='2rem' color="#029fae" /> sự thoải mái</Link>
-                            </div>
+  <Link to='/' className="text-xl text-[#a3a8e0] font-inter font-medium capitalize flex items-center gap-2">
+    <Armchair size='2rem' color="#029fae" /> Công ty cổ phần NexLoot
+  </Link>
+</div>
 
-                            <p className="text-base text-[#5a5f99] font-inter font-normal mb-4 max-w-[350px]">Chúng tôi luôn đặt chất lượng và sự thoải mái của khách hàng lên hàng đầu, cam kết mang đến những sản phẩm tốt nhất với dịch vụ tận tâm và chuyên nghiệp</p>
+<p className="text-base text-[#5a5f99] font-inter font-normal mb-2 max-w-[350px]">
+  Địa chỉ: CT1B, Tháp A, Khu đô thị Vĩnh Hoàng, Quận Hoàng Mai, Hà Nội
+</p>
+
+<p className="text-base text-[#5a5f99] font-inter font-normal mb-2 max-w-[350px]">
+  Điện thoại: 0981 234 567
+</p>
+
+<p className="text-base text-[#5a5f99] font-inter font-normal mb-2 max-w-[350px]">
+  Giấy phép kinh doanh số 0123456789 do Sở Kế hoạch và Đầu tư TP. Hà Nội cấp
+</p>
+
+<p className="text-base text-[#5a5f99] font-inter font-normal max-w-[350px]">
+  Đã đăng ký với Bộ Công Thương theo quy định
+</p>
 
                             <div className="footer_social flex items-center gap-3">
                                 <Link className="p-3 rounded-full border-[#007580] inline-block border-[1px]"><Facebook size='1.5rem' color="#007580" /></Link>
