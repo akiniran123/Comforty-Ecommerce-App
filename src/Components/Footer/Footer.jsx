@@ -27,7 +27,7 @@ const Footer = () => {
 </p>
 
 <p className="text-base text-[#5a5f99] font-inter font-normal mb-2 max-w-[350px]">
-  Điện thoại: 0981 234 567
+  Điện thoại: 0868576379
 </p>
 
 <p className="text-base text-[#5a5f99] font-inter font-normal mb-2 max-w-[350px]">
